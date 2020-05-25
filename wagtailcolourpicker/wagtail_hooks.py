@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.contrib.staticfiles.templatetags.staticfiles import static
+from django.templatetags.static import static
 from django.urls import reverse, path, include
 from django.utils.html import format_html_join, format_html
 from django.utils.translation import ugettext as _
